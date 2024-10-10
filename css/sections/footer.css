@@ -1,0 +1,139 @@
+.footer {
+    margin-top: 50px;
+    background-color: #000000;
+}
+
+.footer__info {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.footer__mail {
+}
+.mail-logo {
+}
+.mail__logo-title {
+    font-family: BodoniC;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.mail__logo-text {
+    padding-top: 20px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 260px;
+}
+
+.mail-text {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.mail__input {
+    margin-top: 10px;
+    width: 184px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #989898;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 17px;
+    position: relative;
+
+}
+
+input{
+    padding-left: 20px;
+}
+.btn-mail {
+
+    margin-left: 0px;
+    width: 156px;
+    height: 48px;
+    background-color: #CDB494;
+    border: none;
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    position: absolute;
+    transform: translateY(10px);
+
+    
+
+}
+.nav__footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.nav__footer-list {
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 45px;
+}
+.footer-item {
+    padding-bottom: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.footer__number {
+    display: flex;
+    flex-direction: column;
+}
+.footer__num {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.footer__bell {
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    color: #CDB494;
+    text-decoration: underline;
+    padding-top: 10px;
+
+}
+.footer__number-img {
+    display: flex;
+    gap: 10px;
+    padding: 120px 5px 0px 100px;
+
+}
+
+@media(max-width:860px){
+    .footer__mail{
+        display: none;
+    }
+}

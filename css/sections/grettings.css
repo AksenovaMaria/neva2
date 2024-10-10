@@ -1,0 +1,98 @@
+.wrapper {
+}
+.grettings {
+}
+.container {
+}
+.header {
+}
+.header__contant {
+    display: flex;
+    flex-direction: column;
+}
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: baseline;
+}
+.logo__basket {
+    display: flex;
+    align-self: center;
+    column-gap: 13px;
+}
+.basket-price {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000000;
+
+}
+.logo__brand {
+    text-align: center;
+}
+
+.brand-title {
+    font-family: BodoniC;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #000000;
+}
+.brand-text {
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    width: 262px;
+    margin-top: 10px;
+}
+.logo__bell {
+    text-align: center;
+
+}
+.bell-number {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+
+}
+.bell-order {
+    color: #CDB494;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+
+}
+.nav {
+    background-color: #F7F7F7;
+    margin-top: 15px;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 250px 15px 250px;
+    
+}
+.nav__item a{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+
+@media(max-width:1135px){
+    .nav__list{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
